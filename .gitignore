@@ -1,0 +1,93 @@
+#########################################
+# .NET 8 + Visual Studio Code .gitignore
+#########################################
+
+# Build artifacts
+bin/
+obj/
+out/
+artifacts/
+tmp/
+
+# .NET CLI working dirs
+**/tmp/
+.project/
+.cache/
+
+# ASP.NET specific
+wwwroot/
+ScaffoldingReadMe.txt
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pidb
+*.svclog
+
+# VS Code config
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs and debugging
+*.log
+*.bak
+*.old
+*.orig
+
+# npm/yarn
+node_modules/
+dist/
+lib/
+*.tsbuildinfo
+
+# Coverage / test results
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+*.testlog
+
+# Secrets and settings
+secrets.json
+local.settings.json
+appsettings.*.json
+
+# OS system files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# NuGet
+*.nupkg
+.nuget/
+*.snupkg
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Azure Functions
+functions-pack/
+funcpack/
+
+# Global.json lock file
+global.json.lock
+
+# Others
+*.vspscc
+*.vssscc
+
