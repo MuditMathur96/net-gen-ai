@@ -7,8 +7,6 @@ var client = new ChatCompletionsClient(new Uri("https://models.github.ai/inferen
 credentials);
 
 
-var history = new ChatHistory()
-
 while (true)
 {
     Console.Write("Q:");
